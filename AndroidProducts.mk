@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lineage_alphalm.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_alphalm-eng \
-    lineage_alphalm-user \
-    lineage_alphalm-userdebug
