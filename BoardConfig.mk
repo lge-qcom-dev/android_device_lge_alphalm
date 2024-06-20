@@ -15,8 +15,8 @@ TARGET_SCREEN_DENSITY := 560
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_alpha_defconfig
 
-# Platform
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+# Lights
+$(call soong_config_set,LGE_LIGHTS_HAL,INCLUDE_DIR,$(DEVICE_PATH)/include)
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
