@@ -6,7 +6,7 @@ persist.vendor.lge.audio.voice.clarity=off
 # Camera
 ro.vendor.lge.logical.camera=3
 ro.vendor.lge.aux.camera=1
-ro.vendor.lge.physical.camera=4
+ro.vendor.lge.physical.camera=3
 
 # LGE Misc
 ro.vendor.lge.build.target_country=COM
