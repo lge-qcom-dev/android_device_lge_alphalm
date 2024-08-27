@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_alphalm.mk
+    $(LOCAL_DIR)/statix_alphalm.mk

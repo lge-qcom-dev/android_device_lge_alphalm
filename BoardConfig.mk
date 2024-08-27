@@ -12,9 +12,6 @@ DEVICE_PATH := device/lge/alphalm
 # Display
 TARGET_SCREEN_DENSITY := 560
 
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/lineageos_alpha_defconfig
-
 # Lights
 $(call soong_config_set,LGE_LIGHTS_HAL,INCLUDE_DIR,$(DEVICE_PATH)/include)
 

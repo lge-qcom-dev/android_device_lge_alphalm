@@ -21,7 +21,7 @@ TARGET_SCREEN_HEIGHT := 2248
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-statix
 
 # Audio
 PRODUCT_COPY_FILES += \
